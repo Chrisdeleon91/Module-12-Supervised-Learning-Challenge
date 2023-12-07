@@ -18,7 +18,7 @@ As part of the README.md file in my GitHub repository, I’ll create a credit ri
 
 ### 1. Launch credit_risk_resampling.ipynb from JuypterLab
 * Run through each line of code to view the output
-### 2. Open report-template.md in the repository
+### 2. Open report.md in the repository
 * view my credit risk analysis report
 
 ![Picture](https://www.columbia.edu/content/themes/custom/columbia/assets/img/cu-header.svg)
