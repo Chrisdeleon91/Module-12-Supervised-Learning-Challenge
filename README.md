@@ -1,4 +1,4 @@
-# Module-12-Timed-Supervised-Learning-Challenge
+# Module-12-Supervised-Learning-Challenge
 
 In this assignment, I’ll use various techniques to train and evaluate models with imbalanced classes. I’ll use a dataset of historical lending activity froma peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 In this module, I’ll learn about supervised learning and how it can be used to build models on both balanced and imbalanced datasets.
