@@ -1,11 +1,17 @@
-# Module 12 Report Template
+# Module-12-Supervised-Learning-Report 
 
 ## Overview of the Analysis
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
-* Explain the purpose of the analysis.
+* Explain the purpose of the analysis
+
+The purpose is to address credit risk. Credit risk poses a classification problem that’s naturally imbalanced. The reason is that healthy loans easily outnumber risky loans. Using my knowledge of the imbalanced-learn library, I’ll use a logistic regression model to compare two versions of the dataset. First, I’ll use the original dataset. Second, I’ll resample the data by using the RandomOverSampler module from the imbalanced-learn library. For both cases, I’ll get the count of the target classes, train a logistic regression classifer, calculate the balanced accuracy score, generate a confusion matrix and generate a classification report. 
+
 * Explain what financial information the data was on, and what you needed to predict.
+
+Using historical lending activity as a dataset, I'll build a model that can identify the creditworthiness of borrowers. This will be accomplished using supervised learning. Supervised learning is the process of building machine learning models on already-known data.  I have a dataset containing loans along with information about these loans. People have defaulted (stopped paying) some of the loans. Fitting a machine learning model to this data is supervised learning—because I already have the answers about this dataset (whether each loan has defaulted). After I fit the model, the benefit of supervised learning is that I can use the model to make predictions about new data. That is, I can predict which loans in the future will be good or bad.
+  
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
