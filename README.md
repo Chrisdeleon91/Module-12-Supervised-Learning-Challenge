@@ -7,7 +7,7 @@ Supervised learning is the process of building machine learning models on alread
 
 Credit risk poses a classification problem that’s inherently imbalanced. The reason is that healthy loans easily outnumber risky loans. 
 Using my knowledge of the imbalanced-learn library, I’ll use a logistic regression model to compare two versions of the dataset. First, I’ll use the original dataset. Second, I’ll resample the data by using the RandomOverSampler module from the imbalanced-learn library.
-For both cases, I’ll get the count of the target classes, train a logistic regression classif er, calculate the balanced accuracy score, generate aconfusion matrix and generate a classification report.
+For both cases, I’ll get the count of the target classes, train a logistic regression classifer, calculate the balanced accuracy score, generate a confusion matrix and generate a classification report.
 As part of the README.md file in my GitHub repository, I’ll create a credit risk analysis report based on the provided template in my Starter_Code folder.
 
 * Split the Data into Training and Testing Sets
