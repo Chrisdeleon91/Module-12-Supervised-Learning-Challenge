@@ -2,7 +2,7 @@
 
 In this assignment, I’ll use various techniques to train and evaluate models with imbalanced classes. I’ll use a dataset of historical lending activity froma peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 In this module, I’ll learn about supervised learning and how it can be used to build models on both balanced and imbalanced datasets.
-Supervised learning is the process of building machine learning models on already-known data. For instance, suppose that I have a dataset containing loans along with information about these loans. People have defaulted (stopped paying) some of the loans. Fitting a machine learning model to this data is supervised learning—because I already have the answers about this dataset (whether each loan has defaulted). Once I fit the model, the benefit of supervised learning is that you can use the model to make predictions about new data. That is, I can predict which loans in the future will be good or bad.
+Supervised learning is the process of building machine learning models on already-known data. For instance, suppose that I have a dataset containing loans along with information about these loans. People have defaulted (stopped paying) some of the loans. Fitting a machine learning model to this data is supervised learning—because I already have the answers about this dataset (whether each loan has defaulted). Once I fit the model, the benefit of supervised learning is that I can use the model to make predictions about new data. That is, I can predict which loans in the future will be good or bad.
 
 
 Credit risk poses a classification problem that’s inherently imbalanced. The reason is that healthy loans easily outnumber risky loans. 
